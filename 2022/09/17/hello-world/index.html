@@ -5,13 +5,13 @@
 <head>
     <meta charset="utf-8">
     <meta name="keywords" content="Hexo + GitHub搭建个人博客, HTML,CSS,JavaScript,JQery,java,linux等">
-    <meta name="description" content="准备工作安装必要的软件
-
-本地部署准备工作Node.jsNode.js
+    <meta name="description" content="本地部署准备工作安装必要软件
+Node.jsNode.js
 
 Windows：通过nvs（推荐）或者nvm安装
 Mac：使用Homebrew或MacPorts安装
-Linux（DEB/RPM-based）：从NoseSource">
+Linux（DEB/RPM-based）：从NoseSource安装
+其它：">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -393,7 +393,7 @@ Linux（DEB/RPM-based）：从NoseSource">
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    998
+                    993
                 </div>
                 
 
@@ -420,9 +420,8 @@ Linux（DEB/RPM-based）：从NoseSource">
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h2 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h2><p>安装必要的软件</p>
-<hr>
-<h2 id="本地部署准备工作"><a href="#本地部署准备工作" class="headerlink" title="本地部署准备工作"></a>本地部署准备工作</h2><h3 id="Node-js"><a href="#Node-js" class="headerlink" title="Node.js"></a>Node.js</h3><p><a href="htttp://nodejs.org/en/">Node.js</a></p>
+                <h2 id="本地部署准备工作"><a href="#本地部署准备工作" class="headerlink" title="本地部署准备工作"></a>本地部署准备工作</h2><p>安装必要软件</p>
+<h3 id="Node-js"><a href="#Node-js" class="headerlink" title="Node.js"></a>Node.js</h3><p><a href="htttp://nodejs.org/en/">Node.js</a></p>
 <ul>
 <li>Windows：通过nvs（推荐）或者nvm安装</li>
 <li>Mac：使用Homebrew或MacPorts安装</li>
@@ -453,7 +452,7 @@ hexo generate
 hexo server
 </code></pre>
 <p>然后使用浏览器打开localhost：4000，就能看到：</p>
-<p><img src="https://s2.ax1x.com/2019/04/11/A7DdZq.png" alt="img"></p>
+<p><img src="/imgages/hello-world/A7DdZq.png"></p>
 <h3 id="Hexo-基础修改"><a href="#Hexo-基础修改" class="headerlink" title="Hexo 基础修改"></a>Hexo 基础修改</h3><h4 id="修改网站关键信息"><a href="#修改网站关键信息" class="headerlink" title="修改网站关键信息"></a>修改网站关键信息</h4><p>Hexo初始化后，博客网站有一些关键信息是默认的，需要修改为我们自己的信息</p>
 <h4 id="网站资料"><a href="#网站资料" class="headerlink" title="网站资料"></a>网站资料</h4><p>修改网站各种资料，例如标题、副标题和邮箱等个人资料，请修改博客根目录的站点配置文件_config.yml：</p>
 <pre class=" language-bash"><code class="language-bash">
@@ -485,7 +484,7 @@ timezone: <span class="token string">''</span>
 </code></pre>
 <p>将结果复制保存</p>
 <h3 id="将SSH-keys保存到GitHub"><a href="#将SSH-keys保存到GitHub" class="headerlink" title="将SSH keys保存到GitHub"></a>将SSH keys保存到GitHub</h3><p>打开github点击头像-&gt;settings：在设置页面找到SSH and GPG keys，单击New SSH key新建SSH KEY。</p>
-<p><img src="D:\my-blog\source_posts\images\image-20220918112547793.png" alt="image-20220918112547793"></p>
+<p><img src="/imgages/hello-world/image-20220918112547793.png"></p>
 <h3 id="测试sshkey是否添加成功"><a href="#测试sshkey是否添加成功" class="headerlink" title="测试sshkey是否添加成功"></a>测试sshkey是否添加成功</h3><p>在git bash测试sshkey是否添加成功，输入</p>
 <pre class=" language-bash"><code class="language-bash"><span class="token function">ssh</span> -T git@github.com
 </code></pre>
@@ -512,12 +511,12 @@ hexo g
 hexo d   <span class="token comment" spellcheck="true"># 提交到GitHub仓库</span>
 </code></pre>
 <p>然后就可以在浏览器上输入<a target="_blank" rel="noopener" href="https://username.github.io访问你的博客了./">https://username.github.io访问你的博客了。</a></p>
-<h3 id="GitHub仓库配置自己的域名"><a href="#GitHub仓库配置自己的域名" class="headerlink" title="GitHub仓库配置自己的域名"></a>GitHub仓库配置自己的域名</h3><h4 id="在仓库添加CNAME文件并在文件中填写绑定的域名"><a href="#在仓库添加CNAME文件并在文件中填写绑定的域名" class="headerlink" title="在仓库添加CNAME文件并在文件中填写绑定的域名"></a>在仓库添加CNAME文件并在文件中填写绑定的域名</h4><p><img src="D:\my-blog\source_posts\images\image-20220918110825278.png"></p>
+<h3 id="GitHub仓库配置自己的域名"><a href="#GitHub仓库配置自己的域名" class="headerlink" title="GitHub仓库配置自己的域名"></a>GitHub仓库配置自己的域名</h3><h4 id="在仓库添加CNAME文件并在文件中填写绑定的域名"><a href="#在仓库添加CNAME文件并在文件中填写绑定的域名" class="headerlink" title="在仓库添加CNAME文件并在文件中填写绑定的域名"></a>在仓库添加CNAME文件并在文件中填写绑定的域名</h4><p><img src="/imgages/hello-world/image-20220918110825278.png"></p>
 <p>文件里填写要绑定的域名且不要包含http://和www</p>
-<p><img src="D:\my-blog\source_posts\images\image-20220918110946841.png"></p>
+<p><img src="/imgages/hello-world/image-20220918110946841.png"></p>
 <p>进入设置，找到Custom domain添加域名后保存即可</p>
 <h4 id="添加域名解析"><a href="#添加域名解析" class="headerlink" title="添加域名解析"></a>添加域名解析</h4><p>ping你的github.io域名，得到一个IP：</p>
-<p><img src="D:\my-blog\source_posts\images\image-20220918111502638.png"></p>
+<p><img src="/imgages/hello-world/image-20220918111502638.png"></p>
 <p>修改你的域名解析记录：</p>
 <p>添加两个A记录，用得到的IP，一个主机记录为：“www”，一个为“@” 这样通过develop-yyh.cn和<a target="_blank" rel="noopener" href="http://www.develop-yyh.cn都能访问博客/">www.develop-yyh.cn都能访问博客</a></p>
 
@@ -921,7 +920,7 @@ hexo d   <span class="token comment" spellcheck="true"># 提交到GitHub仓库</
             <br>
             
                 &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                        class="white-color">998</span>
+                        class="white-color">993</span>
             
             
             
