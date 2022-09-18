@@ -6,7 +6,7 @@
   <link href="http://develop-yyh.cn/atom.xml" rel="self"/>
   
   <link href="http://develop-yyh.cn/"/>
-  <updated>2022-09-17T13:35:44.775Z</updated>
+  <updated>2022-09-18T03:26:07.004Z</updated>
   <id>http://develop-yyh.cn/</id>
   
   <author>
@@ -17,18 +17,20 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Hello World</title>
+    <title>Hexo + GitHub搭建个人博客</title>
     <link href="http://develop-yyh.cn/2022/09/17/hello-world/"/>
     <id>http://develop-yyh.cn/2022/09/17/hello-world/</id>
     <published>2022-09-17T13:35:44.775Z</published>
-    <updated>2022-09-17T13:35:44.775Z</updated>
+    <updated>2022-09-18T03:26:07.004Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt;</summary>
+    <summary type="html">&lt;h2 id=&quot;准备工作&quot;&gt;&lt;a href=&quot;#准备工作&quot; class=&quot;headerlink&quot; title=&quot;准备工作&quot;&gt;&lt;/a&gt;准备工作&lt;/h2&gt;&lt;p&gt;安装必要的软件&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&quot;本地部署准备工作&quot;&gt;&lt;a href=&quot;#本地部署准备工作&quot;</summary>
         
       
     
