@@ -452,7 +452,7 @@ hexo generate
 hexo server
 </code></pre>
 <p>然后使用浏览器打开localhost：4000，就能看到：</p>
-<p><img src="/imgages/hello-world/A7DdZq.png"></p>
+<p><img src="D:\my-blog\source\imgages\hello-world\A7DdZq.png"></p>
 <h3 id="Hexo-基础修改"><a href="#Hexo-基础修改" class="headerlink" title="Hexo 基础修改"></a>Hexo 基础修改</h3><h4 id="修改网站关键信息"><a href="#修改网站关键信息" class="headerlink" title="修改网站关键信息"></a>修改网站关键信息</h4><p>Hexo初始化后，博客网站有一些关键信息是默认的，需要修改为我们自己的信息</p>
 <h4 id="网站资料"><a href="#网站资料" class="headerlink" title="网站资料"></a>网站资料</h4><p>修改网站各种资料，例如标题、副标题和邮箱等个人资料，请修改博客根目录的站点配置文件_config.yml：</p>
 <pre class=" language-bash"><code class="language-bash">
@@ -484,7 +484,7 @@ timezone: <span class="token string">''</span>
 </code></pre>
 <p>将结果复制保存</p>
 <h3 id="将SSH-keys保存到GitHub"><a href="#将SSH-keys保存到GitHub" class="headerlink" title="将SSH keys保存到GitHub"></a>将SSH keys保存到GitHub</h3><p>打开github点击头像-&gt;settings：在设置页面找到SSH and GPG keys，单击New SSH key新建SSH KEY。</p>
-<p><img src="/imgages/hello-world/image-20220918112547793.png"></p>
+<p><img src="D:\my-blog\source\imgages\hello-world\image-20220918112547793.png"></p>
 <h3 id="测试sshkey是否添加成功"><a href="#测试sshkey是否添加成功" class="headerlink" title="测试sshkey是否添加成功"></a>测试sshkey是否添加成功</h3><p>在git bash测试sshkey是否添加成功，输入</p>
 <pre class=" language-bash"><code class="language-bash"><span class="token function">ssh</span> -T git@github.com
 </code></pre>
@@ -511,12 +511,12 @@ hexo g
 hexo d   <span class="token comment" spellcheck="true"># 提交到GitHub仓库</span>
 </code></pre>
 <p>然后就可以在浏览器上输入<a target="_blank" rel="noopener" href="https://username.github.io访问你的博客了./">https://username.github.io访问你的博客了。</a></p>
-<h3 id="GitHub仓库配置自己的域名"><a href="#GitHub仓库配置自己的域名" class="headerlink" title="GitHub仓库配置自己的域名"></a>GitHub仓库配置自己的域名</h3><h4 id="在仓库添加CNAME文件并在文件中填写绑定的域名"><a href="#在仓库添加CNAME文件并在文件中填写绑定的域名" class="headerlink" title="在仓库添加CNAME文件并在文件中填写绑定的域名"></a>在仓库添加CNAME文件并在文件中填写绑定的域名</h4><p><img src="/imgages/hello-world/image-20220918110825278.png"></p>
+<h3 id="GitHub仓库配置自己的域名"><a href="#GitHub仓库配置自己的域名" class="headerlink" title="GitHub仓库配置自己的域名"></a>GitHub仓库配置自己的域名</h3><h4 id="在仓库添加CNAME文件并在文件中填写绑定的域名"><a href="#在仓库添加CNAME文件并在文件中填写绑定的域名" class="headerlink" title="在仓库添加CNAME文件并在文件中填写绑定的域名"></a>在仓库添加CNAME文件并在文件中填写绑定的域名</h4><p><img src="D:\my-blog\source\imgages\hello-world\image-20220918110825278.png"></p>
 <p>文件里填写要绑定的域名且不要包含http://和www</p>
-<p><img src="/imgages/hello-world/image-20220918110946841.png"></p>
+<p><img src="D:\my-blog\source\imgages\hello-world\image-20220918110946841.png"></p>
 <p>进入设置，找到Custom domain添加域名后保存即可</p>
 <h4 id="添加域名解析"><a href="#添加域名解析" class="headerlink" title="添加域名解析"></a>添加域名解析</h4><p>ping你的github.io域名，得到一个IP：</p>
-<p><img src="/imgages/hello-world/image-20220918111502638.png"></p>
+<p><img src="D:\my-blog\source\imgages\hello-world\image-20220918111502638.png"></p>
 <p>修改你的域名解析记录：</p>
 <p>添加两个A记录，用得到的IP，一个主机记录为：“www”，一个为“@” 这样通过develop-yyh.cn和<a target="_blank" rel="noopener" href="http://www.develop-yyh.cn都能访问博客/">www.develop-yyh.cn都能访问博客</a></p>
 
